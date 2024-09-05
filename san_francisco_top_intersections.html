@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_74ce4bd280a7fea68d53ad774147fe92 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_74ce4bd280a7fea68d53ad774147fe92" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_74ce4bd280a7fea68d53ad774147fe92 = L.map(
+                "map_74ce4bd280a7fea68d53ad774147fe92",
+                {
+                    center: [37.7749, -122.4194],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_90d6d8e2e0765c2e2de8a4f54d60ebc9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_90d6d8e2e0765c2e2de8a4f54d60ebc9.addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var marker_843043f3bd88e203117bea11e56b045c = L.marker(
+                [37.75300216674805, -122.4063339],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_9ab10d537d196db180c1e9aeb87438f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_843043f3bd88e203117bea11e56b045c.setIcon(icon_9ab10d537d196db180c1e9aeb87438f2);
+        
+    
+        var popup_99275d91ebebdeb92a3ba28499c219f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26e1cb4f56eb3aa5df5e5c46b10e350e = $(`<div id="html_26e1cb4f56eb3aa5df5e5c46b10e350e" style="width: 100.0%; height: 100.0%;">Intersection: 24TH ST \ POTRERO AVE</div>`)[0];
+                popup_99275d91ebebdeb92a3ba28499c219f2.setContent(html_26e1cb4f56eb3aa5df5e5c46b10e350e);
+            
+        
+
+        marker_843043f3bd88e203117bea11e56b045c.bindPopup(popup_99275d91ebebdeb92a3ba28499c219f2)
+        ;
+
+        
+    
+    
+            var marker_8874c2d46f9e9c9eac30014fc6b1630e = L.marker(
+                [37.78641128540039, -122.4080353],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_170e42f49814cfa4c024d10dba510024 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8874c2d46f9e9c9eac30014fc6b1630e.setIcon(icon_170e42f49814cfa4c024d10dba510024);
+        
+    
+        var popup_db917eca1e10aa411532fa0fcfda247c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98c189a98032e03b38f204d9466ece98 = $(`<div id="html_98c189a98032e03b38f204d9466ece98" style="width: 100.0%; height: 100.0%;">Intersection: OFARRELL ST \ POWELL ST</div>`)[0];
+                popup_db917eca1e10aa411532fa0fcfda247c.setContent(html_98c189a98032e03b38f204d9466ece98);
+            
+        
+
+        marker_8874c2d46f9e9c9eac30014fc6b1630e.bindPopup(popup_db917eca1e10aa411532fa0fcfda247c)
+        ;
+
+        
+    
+    
+            var marker_150aa1a88b59a0f43418485b2806390a = L.marker(
+                [37.784698486328125, -122.4076996],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_6a20b09af1e006bfa6bb3dc3930fbb0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_150aa1a88b59a0f43418485b2806390a.setIcon(icon_6a20b09af1e006bfa6bb3dc3930fbb0f);
+        
+    
+        var popup_9be8e9f493037d7a20e0d9d9b5336b4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0521fad6d63f21aa46d4d605fae32867 = $(`<div id="html_0521fad6d63f21aa46d4d605fae32867" style="width: 100.0%; height: 100.0%;">Intersection: EDDY ST \ POWELL ST</div>`)[0];
+                popup_9be8e9f493037d7a20e0d9d9b5336b4b.setContent(html_0521fad6d63f21aa46d4d605fae32867);
+            
+        
+
+        marker_150aa1a88b59a0f43418485b2806390a.bindPopup(popup_9be8e9f493037d7a20e0d9d9b5336b4b)
+        ;
+
+        
+    
+    
+            var marker_bb142ed78a451c1936d0ab5d60873c11 = L.marker(
+                [37.78256988525391, -122.4308014],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_280959cda7546bf028763f0ffdb25967 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb142ed78a451c1936d0ab5d60873c11.setIcon(icon_280959cda7546bf028763f0ffdb25967);
+        
+    
+        var popup_9f03502db0434331eb4b7daf2c4e3865 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_beaa3d83c53db8b8251e3a37c3ae8e26 = $(`<div id="html_beaa3d83c53db8b8251e3a37c3ae8e26" style="width: 100.0%; height: 100.0%;">Intersection: ELLIS ST \ WEBSTER ST</div>`)[0];
+                popup_9f03502db0434331eb4b7daf2c4e3865.setContent(html_beaa3d83c53db8b8251e3a37c3ae8e26);
+            
+        
+
+        marker_bb142ed78a451c1936d0ab5d60873c11.bindPopup(popup_9f03502db0434331eb4b7daf2c4e3865)
+        ;
+
+        
+    
+    
+            var marker_f6c1f8640ea866c11571eecc681ffc04 = L.marker(
+                [37.74312210083008, -122.4214859],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_5f1f17a2718e5f5a27019d3e9c4f937f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f6c1f8640ea866c11571eecc681ffc04.setIcon(icon_5f1f17a2718e5f5a27019d3e9c4f937f);
+        
+    
+        var popup_5e91641e3bebc44a495982b0307dbb38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bd4c0c740ee7d3c61f3d042fc3a461d = $(`<div id="html_2bd4c0c740ee7d3c61f3d042fc3a461d" style="width: 100.0%; height: 100.0%;">Intersection: MISSION ST \ VIRGINIA AVE</div>`)[0];
+                popup_5e91641e3bebc44a495982b0307dbb38.setContent(html_2bd4c0c740ee7d3c61f3d042fc3a461d);
+            
+        
+
+        marker_f6c1f8640ea866c11571eecc681ffc04.bindPopup(popup_5e91641e3bebc44a495982b0307dbb38)
+        ;
+
+        
+    
+    
+            var marker_8efadbbc7903590b84556be0fc866f3a = L.marker(
+                [37.78248977661133, -122.4458237],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_2e7026d64ced1dabc1f864011ee80fd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8efadbbc7903590b84556be0fc866f3a.setIcon(icon_2e7026d64ced1dabc1f864011ee80fd2);
+        
+    
+        var popup_28f75a5c9d0169dbf85e0dc5679634c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f12c83d00f15a5d82ce2f0ca76dec8e = $(`<div id="html_2f12c83d00f15a5d82ce2f0ca76dec8e" style="width: 100.0%; height: 100.0%;">Intersection: GEARY BLVD \ PRESIDIO AVE</div>`)[0];
+                popup_28f75a5c9d0169dbf85e0dc5679634c1.setContent(html_2f12c83d00f15a5d82ce2f0ca76dec8e);
+            
+        
+
+        marker_8efadbbc7903590b84556be0fc866f3a.bindPopup(popup_28f75a5c9d0169dbf85e0dc5679634c1)
+        ;
+
+        
+    
+    
+            var marker_6c56c30656f6c3ab39969ad7b33fa8ec = L.marker(
+                [37.784560141211806, -122.407337],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_57d58b4f565877ff573fc3c24183498f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c56c30656f6c3ab39969ad7b33fa8ec.setIcon(icon_57d58b4f565877ff573fc3c24183498f);
+        
+    
+        var popup_963ec23cc8af2ee635596800c1780b75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_539af727561e56bf3263f34a074417e0 = $(`<div id="html_539af727561e56bf3263f34a074417e0" style="width: 100.0%; height: 100.0%;">Intersection: MARKET ST \ POWELL ST</div>`)[0];
+                popup_963ec23cc8af2ee635596800c1780b75.setContent(html_539af727561e56bf3263f34a074417e0);
+            
+        
+
+        marker_6c56c30656f6c3ab39969ad7b33fa8ec.bindPopup(popup_963ec23cc8af2ee635596800c1780b75)
+        ;
+
+        
+    
+    
+            var marker_c750e67d58e04e9f996cfbd0ee0a120d = L.marker(
+                [37.78640961281089, -122.4080362],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_065e0657969a5edac664c178baa95086 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c750e67d58e04e9f996cfbd0ee0a120d.setIcon(icon_065e0657969a5edac664c178baa95086);
+        
+    
+        var popup_623f118db60483dc3f7b4c2c9609fba7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec585634f8dcfe825282258be2e6758e = $(`<div id="html_ec585634f8dcfe825282258be2e6758e" style="width: 100.0%; height: 100.0%;">Intersection: POWELL ST \ OFARRELL ST</div>`)[0];
+                popup_623f118db60483dc3f7b4c2c9609fba7.setContent(html_ec585634f8dcfe825282258be2e6758e);
+            
+        
+
+        marker_c750e67d58e04e9f996cfbd0ee0a120d.bindPopup(popup_623f118db60483dc3f7b4c2c9609fba7)
+        ;
+
+        
+    
+    
+            var marker_8093c54f9537ac1feaf2b2477ddbb64e = L.marker(
+                [37.80569594262971, -122.4053572],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_128de3b6380b776a5cdf5028dda3c0c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8093c54f9537ac1feaf2b2477ddbb64e.setIcon(icon_128de3b6380b776a5cdf5028dda3c0c9);
+        
+    
+        var popup_c96bda944be881ff75f3bef8fd7e581f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82a37f7cbb381ebe7f04630c2e8879d2 = $(`<div id="html_82a37f7cbb381ebe7f04630c2e8879d2" style="width: 100.0%; height: 100.0%;">Intersection: FRANCISCO ST \ MONTGOMERY ST</div>`)[0];
+                popup_c96bda944be881ff75f3bef8fd7e581f.setContent(html_82a37f7cbb381ebe7f04630c2e8879d2);
+            
+        
+
+        marker_8093c54f9537ac1feaf2b2477ddbb64e.bindPopup(popup_c96bda944be881ff75f3bef8fd7e581f)
+        ;
+
+        
+    
+    
+            var marker_176240b237d5b44b1d24ab66bee14aa9 = L.marker(
+                [37.782488031626265, -122.4458205],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_3297c485cd3252a8fa6cd4a9b67170e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_176240b237d5b44b1d24ab66bee14aa9.setIcon(icon_3297c485cd3252a8fa6cd4a9b67170e4);
+        
+    
+        var popup_8d4d42d11995b5e49b30f08e94b48e21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd03312d2226b0bbcbe26738cdd2c790 = $(`<div id="html_bd03312d2226b0bbcbe26738cdd2c790" style="width: 100.0%; height: 100.0%;">Intersection: GEARY BLVD \ PRESIDIO AVE</div>`)[0];
+                popup_8d4d42d11995b5e49b30f08e94b48e21.setContent(html_bd03312d2226b0bbcbe26738cdd2c790);
+            
+        
+
+        marker_176240b237d5b44b1d24ab66bee14aa9.bindPopup(popup_8d4d42d11995b5e49b30f08e94b48e21)
+        ;
+
+        
+    
+    
+            var marker_cdd1f30f5ace8a13bf1584b5fc1e2620 = L.marker(
+                [37.72694991292525, -122.4760395],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_0b30f5539fbddb157e6e44327c014d11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cdd1f30f5ace8a13bf1584b5fc1e2620.setIcon(icon_0b30f5539fbddb157e6e44327c014d11);
+        
+    
+        var popup_70190da3dc6197562c6cdc2e768bb855 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd430ffa479e92e68a3406d6d78221b2 = $(`<div id="html_bd430ffa479e92e68a3406d6d78221b2" style="width: 100.0%; height: 100.0%;">Intersection: 20TH AVE \ WINSTON DR</div>`)[0];
+                popup_70190da3dc6197562c6cdc2e768bb855.setContent(html_bd430ffa479e92e68a3406d6d78221b2);
+            
+        
+
+        marker_cdd1f30f5ace8a13bf1584b5fc1e2620.bindPopup(popup_70190da3dc6197562c6cdc2e768bb855)
+        ;
+
+        
+    
+    
+            var marker_e8339998815db6b97b82b7bc7a0979d9 = L.marker(
+                [37.78456115722656, -122.4073334],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_19ead2d7bf18f6214e2133c3d8634cb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e8339998815db6b97b82b7bc7a0979d9.setIcon(icon_19ead2d7bf18f6214e2133c3d8634cb1);
+        
+    
+        var popup_f099d43a1986c00039def5ee558d9678 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57ac548e7f700d6dc5e443f09894df62 = $(`<div id="html_57ac548e7f700d6dc5e443f09894df62" style="width: 100.0%; height: 100.0%;">Intersection: MARKET ST \ POWELL ST</div>`)[0];
+                popup_f099d43a1986c00039def5ee558d9678.setContent(html_57ac548e7f700d6dc5e443f09894df62);
+            
+        
+
+        marker_e8339998815db6b97b82b7bc7a0979d9.bindPopup(popup_f099d43a1986c00039def5ee558d9678)
+        ;
+
+        
+    
+    
+            var marker_673cd87cbb7f566da175a666a5827196 = L.marker(
+                [37.75300402962228, -122.4063362],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_c6f656c582865452568011810d6e14ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_673cd87cbb7f566da175a666a5827196.setIcon(icon_c6f656c582865452568011810d6e14ba);
+        
+    
+        var popup_27e5999c8ad65c9862b269aaa3be0ca3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69095c86ac3e90b683364493f1e19f17 = $(`<div id="html_69095c86ac3e90b683364493f1e19f17" style="width: 100.0%; height: 100.0%;">Intersection: 24TH ST \ POTRERO AVE</div>`)[0];
+                popup_27e5999c8ad65c9862b269aaa3be0ca3.setContent(html_69095c86ac3e90b683364493f1e19f17);
+            
+        
+
+        marker_673cd87cbb7f566da175a666a5827196.bindPopup(popup_27e5999c8ad65c9862b269aaa3be0ca3)
+        ;
+
+        
+    
+    
+            var marker_117c12872e1c53c6c9732e9687967bfa = L.marker(
+                [37.805694580078125, -122.4053574],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_92cdbb9ee198db7aa0e71b27be705526 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_117c12872e1c53c6c9732e9687967bfa.setIcon(icon_92cdbb9ee198db7aa0e71b27be705526);
+        
+    
+        var popup_8c9f7039a9f1ee72b44e26988e709f1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fba7c25854d76f7e9ed1242e0663952 = $(`<div id="html_0fba7c25854d76f7e9ed1242e0663952" style="width: 100.0%; height: 100.0%;">Intersection: FRANCISCO ST \ MONTGOMERY ST</div>`)[0];
+                popup_8c9f7039a9f1ee72b44e26988e709f1a.setContent(html_0fba7c25854d76f7e9ed1242e0663952);
+            
+        
+
+        marker_117c12872e1c53c6c9732e9687967bfa.bindPopup(popup_8c9f7039a9f1ee72b44e26988e709f1a)
+        ;
+
+        
+    
+    
+            var marker_ff328c10ac2b27dc10156bd9c18526e1 = L.marker(
+                [37.72695159912109, -122.4760361],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_fe4b708a5b5f60b37a74a8867d227510 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ff328c10ac2b27dc10156bd9c18526e1.setIcon(icon_fe4b708a5b5f60b37a74a8867d227510);
+        
+    
+        var popup_0399259b19bf18f5b3ecea7d793d127f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2a342adad5c08376f131d7bb4bbe1e9 = $(`<div id="html_e2a342adad5c08376f131d7bb4bbe1e9" style="width: 100.0%; height: 100.0%;">Intersection: 20TH AVE \ WINSTON DR</div>`)[0];
+                popup_0399259b19bf18f5b3ecea7d793d127f.setContent(html_e2a342adad5c08376f131d7bb4bbe1e9);
+            
+        
+
+        marker_ff328c10ac2b27dc10156bd9c18526e1.bindPopup(popup_0399259b19bf18f5b3ecea7d793d127f)
+        ;
+
+        
+    
+    
+            var marker_f3d3d104c97176e86fb1dbf3198c7bd5 = L.marker(
+                [37.78641128540039, -122.4080353],
+                {}
+            ).addTo(map_74ce4bd280a7fea68d53ad774147fe92);
+        
+    
+            var icon_42d378dfeecb61da860ba8737c8fe26c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f3d3d104c97176e86fb1dbf3198c7bd5.setIcon(icon_42d378dfeecb61da860ba8737c8fe26c);
+        
+    
+        var popup_9cc52e140c3bf057f58f7f0c812e958d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb9a652bb1a334f3b90b7c2c20a1151c = $(`<div id="html_fb9a652bb1a334f3b90b7c2c20a1151c" style="width: 100.0%; height: 100.0%;">Intersection: POWELL ST \ OFARRELL ST</div>`)[0];
+                popup_9cc52e140c3bf057f58f7f0c812e958d.setContent(html_fb9a652bb1a334f3b90b7c2c20a1151c);
+            
+        
+
+        marker_f3d3d104c97176e86fb1dbf3198c7bd5.bindPopup(popup_9cc52e140c3bf057f58f7f0c812e958d)
+        ;
+
+        
+    
+</script>
+</html>
